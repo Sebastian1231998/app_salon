@@ -1,0 +1,66 @@
+.seccion{
+    
+
+    display: none;
+    margin-top: 3.5rem;
+
+   .listado-servicios{
+    @include tablet{
+        @include grid(2,$separacion/4)
+    }
+   } 
+
+
+     .parrafo-top{
+        text-align: center;
+    }
+
+    &.mostrar-seccion{
+        display: block!important;   
+       }
+  
+
+}
+
+
+
+.contenedor-servicio{
+    background-color: $blanco;
+    padding: 2rem;
+    border-radius: 2rem;
+    p{
+        color: $negro;
+        padding:0;
+        font-weight: $regular;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        
+
+        &:last-of-type{
+            margin:0
+        }
+
+      &.precio-servicio{
+          font-size: 3rem;
+          color: $azul;
+          font-weight: $bold;
+      }  
+    }
+}
+.seleccionado{
+    background-color: $azul;
+    p{
+        color: $blanco;
+    }
+    p.precio-servicio{
+        color: $blanco;
+    }
+    
+
+}
+.tab-seleccionado{
+    background-color: $azul!important;
+    color: $blanco;
+}
+

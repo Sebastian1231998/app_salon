@@ -1,0 +1,50 @@
+#paso-2{
+    
+    p{
+        text-align: center;
+    }
+
+    .formulario{
+
+         
+        
+        .campo{
+
+            display: flex;
+            align-items: center;
+               
+            label{
+                color: $blanco;
+               
+                flex: 0 0 10rem;
+            }
+            input{
+               
+                flex: 1;
+                margin-bottom: 1.5rem;
+                border: none;
+                padding: 1.5rem;
+                border-radius: 2rem;
+            
+            }
+            
+
+        }
+    }
+}
+
+.error{
+
+    background-color: red;
+    margin: 1rem auto;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+
+    p{
+        text-transform: uppercase;
+        font-weight: $bold;
+        text-align: center;
+        
+    }
+}

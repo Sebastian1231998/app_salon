@@ -1,0 +1,30 @@
+.tabs{
+    display: flex;
+    justify-content: space-between;
+   button{
+       border: none;
+       padding: .5rem 1rem;
+       background-color: $blanco;
+       width: 100%;
+       margin: 1rem;
+       font-weight: $bold;
+       cursor: pointer;
+       
+
+       &.button-azul-inicial{
+        background-color: $azul;
+        border: 1px solid #1e1e1e;
+       }
+
+       &.blanco-1{
+        background-color: $blanco;
+       }
+       
+     }
+
+     .azul{
+       background-color: $azul;
+   }
+
+
+}

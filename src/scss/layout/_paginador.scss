@@ -1,0 +1,32 @@
+.paginador{
+
+.contenedor-paginador{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
+    .button{
+        padding: 1.5rem 2rem;
+        font-weight: bold;
+        margin-top: 3rem;
+        background-color: $azul;
+        border: none;
+        color:$blanco;
+        cursor: pointer;
+
+
+
+    }
+
+
+    .ocultar{
+        visibility: hidden;
+    }
+
+
+    
+
+
+
+}
